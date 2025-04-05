@@ -1,2 +1,2 @@
-# springBoot
+# springBoot Basic
 Spring Boot Project
