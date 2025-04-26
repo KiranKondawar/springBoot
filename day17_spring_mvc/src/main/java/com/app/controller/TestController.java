@@ -42,4 +42,13 @@ return "/test/test1";//AVN:/WEB-INF/views/test/test1.jsp
 //SC will impl ret populated model map along with LVN
 }
 
+@GetMapping("test3")
+public String testModelMapTest(Model map1){
+
+System.out.println("in Test3 model map practise"+ map1);
+map1.addAttribute("server_test_ts",new Date()).addAttribute("num_list_test", Arrays.asList(50,60,70));
+System.out.println("map again"+map1);
+return "/test/test1"; // here spring container will atomatically return populated model map along with logically view name
+
+}
 }

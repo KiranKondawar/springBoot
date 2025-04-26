@@ -19,6 +19,11 @@
 		via DISPATCHER SERVLET using  MODEL MAP -->
 	</h5>
 	<h5>
+		<a href="test/test3">Test Model Map Practise </a>
+		<!-- We are sending/serving moderl attribute from handler to JSP
+		via DISPATCHER SERVLET using  MODEL MAP -->
+	</h5>
+	<h5>
 		<a href="user/login">User Login</a>
 	</h5>
 	
